@@ -145,9 +145,10 @@
         <p id="error">PIN incorreto! Tente novamente ❤️</p>
         <div class="hint" onclick="toggleHint()"><i class="fas fa-lightbulb"></i></div>
         <div class="hint-box" id="hintBox">
-            <p>Dica 1°: É uma data, não muito importante, que nunca mencionamos, porém, ela mas está lá. (Exemplo de senha: 010424)</p>
-            <p>Dica 2°: Algo dito em todos os nossos dias, até nós piores momentos...</p>
-            <p>Dica 3°: "Posso ser dito em silêncio, mas quando falado, toco o coração. Sou simples, mas tenho o poder de transformar tudo."</p>
+            <p>Dica 1°: É uma data, não muito importante, que nunca mencionamos, porém, ela está lá. (Exemplo de senha: 010424)</p>
+            <p>Dica 2°: Algo dito em todos os nossos dias, e essa data foi a primeira vez que você mencionou...</p>
+            <p>Dica 3°: "Entre tantas palavras, uma brilhou diferente. Pequena, mas carregada de significado, mudou tudo no instante em que apareceu na tela."</p>
+            <p>Dica 4°: Uma palavra simples, mas muda tudo quando aparece na tela.</p>
         </div>
     </div>
 
@@ -170,7 +171,7 @@
                           .map(i => i.value)
                           .join('');
 
-            if (pin === '120724') {
+            if (pin === '160624') {
                 document.querySelector('.login-container').style.display = 'none';
                 document.querySelector('.envelope-container').style.display = 'block';
                 document.getElementById('error').style.display = 'none';
